@@ -24,4 +24,4 @@ switch (level) {
     else {console.log ("Perdeu!")
           console.log ("Sua pontuação:" + score)}
         
-    case "3"}
+    }
