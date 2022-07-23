@@ -22,14 +22,15 @@ switch (level) {
         console.log (random)
     if (number2 == random) {console.log ("Ganhou!")}
     else {console.log ("Perdeu!")
-          console.log ("Sua pontuação:" + score)}
+          console.log ("Sua pontuação:" + score)
+        break}
         
     case "3":
         let number3 = readline.question ('Digite um numero de 0 a 10:')
-        random = Math.floor(10*Math.random)
+        random = Math.floor(10*Math.random())
         console.log (number3)
         console.log (random)
     if (number3 == random) {console.log ("Ganhou!")}
     else {console.log ("Perdeu!")
           console.log ("Sua pontuação:" + score)}
-        }
+        break}
