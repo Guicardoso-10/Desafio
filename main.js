@@ -6,6 +6,7 @@ let score = 0
 score = 0 + 5
 random = Math.floor(random)
 console.log (level)
+while (true) {
 switch (level) {
     case "1":
         let number1 = readline.question ('Digite um numero de 0 a 1:')
@@ -33,4 +34,4 @@ switch (level) {
     if (number3 == random) {console.log ("Ganhou!")}
     else {console.log ("Perdeu!")
           console.log ("Sua pontuação:" + score)}
-        break}
+        break} break}
